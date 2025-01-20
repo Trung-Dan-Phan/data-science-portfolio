@@ -1,6 +1,7 @@
 # Data Scientist
 
 **About Me**
+------------
 
 I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about-desautels/rankings) in December 2022 with a degree in [Mathematics](https://www.mcgill.ca/study/2024-2025/faculties/desautels/undergraduate/programs/bachelor-commerce-bcom-major-mathematics-and-statistics-management) and [Business Analytics](https://www.mcgill.ca/study/2024-2025/faculties/desautels/undergraduate/programs/bachelor-commerce-bcom-concentration-business-analytics). I am now continuing to improve my skills at Ecole Polytechnique and HEC Paris with a [master's degree in data science](https://programmes.polytechnique.edu/en/master/programs/data-science-for-business-joint-degree-with-hec). I aspire to use my knowledge and expertise to provide data-driven solutions for better business decisions. In addition to my passion of data science, I enjoy playing tennis 🎾 and composing music 🎵. I am always willing to learn new traits.
 
@@ -49,5 +50,5 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 * Tennis (15 years)
 * Clarinet (15 years)
-* Music production ([SoundCloud](https://soundcloud.com/adaname))
+* Music production (SoundCloud)
 * Traveling
