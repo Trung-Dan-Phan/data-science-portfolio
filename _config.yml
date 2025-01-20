@@ -1,12 +1,12 @@
 title: Trung Dan Phan
-description: "Hi there! 👋
-  \nI'm an aspiring data scientist passionate about creating innovative solutions.
+description: |
+  Hi there! 👋
+  I'm an aspiring data scientist passionate about creating innovative solutions.
   During my free time, I love creating and sharing music. 🎶  
-  \n**Connect with me**:
-  \n- ✉️ [trung-dan.phan@hec.edu](trung-dan.phan@hec.edu)
-  \n- 🌐 [LinkedIn](https://www.linkedin.com/in/trung-dan-phan/)
-  \n- 🎵 [SoundCloud](https://soundcloud.com/adaname)
-  "
+  **Connect with me**:
+  - ✉️ [trung-dan.phan@hec.edu](trung-dan.phan@hec.edu)
+  - 🌐 [LinkedIn](https://www.linkedin.com/in/trung-dan-phan/)
+  - 🎵 [SoundCloud](https://soundcloud.com/adaname)
 logo: /docs/headshot.png
 # show_downloads: true
 theme: jekyll-theme-minimal
