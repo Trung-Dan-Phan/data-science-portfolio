@@ -39,6 +39,17 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ![PolyCarbonate Price Forecasting](docs/schneider_electric_pc_price_forecasting.png)
 
+### Unibail-Rodamco-Westfield - Retail Performance & Mix Optimization	January 2025 
+
+![URW](docs/urw.png)
+
+* Integrated 6 diverse datasets (sales, costs, traffic) at store and mall levels, creating a unified dataset with over 15,000 rows to support comprehensive analysis.
+* Developed 8 KPIs focused on revenue, cost efficiency, and traffic flow, enabling precise evaluation of store and mall performance to uncover inefficiencies.
+* Leveraged hierarchical clustering to categorize malls into distinct segments (luxury, fashion, convenient, family-friendly) and tailored strategic recommendations accordingly.
+* Conducted market-specific analysis to identify top-performing store categories by country, providing data-driven insights to adapt strategies across diverse markets.
+
+![Store Performance](docs/store_category_performance.png)
+
 **Skills**
 ------------------------------
 - **Languages & Databases:** Python, SQL, Git, GCP (BigQuery), AWS (S3)
