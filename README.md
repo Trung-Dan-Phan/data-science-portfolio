@@ -20,15 +20,18 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ### Foxintelligence by NielsenIQ (April-August 2024)
 
+![foxintelligence](docs/foxintelligence_by_nielseniq.png)
 
-* Worked with large datasets in BigQuery to match product names with prices and standardize data
-* Applied Levenshtein distance for sampling and balancing product distribution by category, utilizing Z-Score to filter out price anomalies
-* Implemented a state-of-the-art Multimodal Transformer model to reduce misclassification rates by 2%
-* Developed and deployed a Databricks pipeline integrated with MLflow for model tracking
+* Queried and joined large datasets in BigQuery, matching product names with prices and converting 50M+ prices to USD to standardize data.
+* Applied Levenshtein distance for sampling and balancing product distribution by category, utilizing Z-Score to filter out price anomalies.
+* Implemented a state-of-the-art Multimodal Transformer model, processing over 1 million data points and integrating textual, numerical, and categorical features to reduce misclassification rates by 2%.
+* Developed and deployed a Databricks pipeline running six parallel combining strategies and integrated with MLflow for model tracking
 
 ![Multimodal Transformer](docs/multimodal_transformer.png)
 
 ### Schneider Electric - Plastic Cost Prediction	December 2024 
+
+![Schneider Electric](docs/schneider_electric.png)
 
 * Designed data preprocessing pipelines, merging over 10 datasets (e.g., macroeconomic indicators, raw material prices) and ensuring consistency through timestamp alignment, format unification, and missing value imputation.
 * Implemented and evaluated forecasting models to forecast Polycarbonate and Green Polycarbonate prices for 3, 6, and 9 months, with NBEATS achieving the best-performance with a Mean Absolute Error (MAE) of 0.1155.
