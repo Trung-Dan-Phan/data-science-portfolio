@@ -29,7 +29,7 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ![Multimodal Transformer](docs/multimodal_transformer.png)
 
-### Schneider Electric - Plastic Cost Prediction	December 2024 
+### Schneider Electric - Plastic Cost Prediction (December 2024)
 
 ![Schneider Electric](docs/schneider_electric.png)
 
@@ -39,7 +39,7 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ![PolyCarbonate Price Forecasting](docs/schneider_electric_pc_price_forecasting.png)
 
-### Unibail-Rodamco-Westfield - Retail Performance & Mix Optimization	January 2025 
+### Unibail-Rodamco-Westfield - Retail Performance & Mix Optimization (January 2025) 
 
 ![URW](docs/urw.png)
 
@@ -50,19 +50,29 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ![Store Performance](docs/store_category_performance.png)
 
+### Capgemini Invent - Customer Feedback Analysis for TotalEnergies (January-March 2024) 
+
+![Capgemini Invent](docs/capgemini_invent.png)
+
+* Developed an automated solution to scrape customer reviews from Trustpilot using Selenium to analyze the Voice of Customer
+* Leveraged BERTopic to analyze over 5000 customer interactions, uncovering key topics and pain points across entire customer journey for TotalEnergies and its main competitors
+* Collaborated with a team of six students to present findings to a panel of data science consultants, communicating data-driven insights on customer sentiment
+
+![Bertopic](docs/bertopic_total_energies_reviews.png)
+
 **Skills**
 ------------------------------
 - **Languages & Databases:** Python, SQL, Git, GCP (BigQuery), AWS (S3)
 - **Analytical Modeling:** Causal Inference, Time Series Analysis
-- **Machine Learning:** Numpy, Pandas, Scikit-learn, PySpark, TensorFlow, PyTorch, Keras 
-- **AI Models:** Supervised Learning (Regression, KNN, Logistic Regression, Trees, Boosting), Unsupervised Learning (PCA, Clustering), NLP (spaCy), Deep Learning (Neural Networks, Transformer)
 - **Data Visualization:** Matplotlib, Seaborn, Plotly, Tableau
+- **Machine Learning:** Numpy, Pandas, Scipy, Statsmodels, Scikit-learn, PySpark, TensorFlow, PyTorch, Keras, spaCy
+- **AI Models:** Supervised Learning (Regression, KNN, Logistic Regression, Trees, Boosting), Unsupervised Learning (PCA, Clustering), NLP, Deep Learning (Neural Networks, Transformer), Reinforcement Learning (Sarsa, Q-Learning, Actor-Critic)
 - **MLOPS:** Mlflow, Docker, FastAPI, Prophet
 
 **Interests**
 ------------------------------
 
-* Tennis (15 years)
-* Clarinet (15 years)
+* Tennis (15+ years)
+* Clarinet (15+ years)
 * Music production (SoundCloud)
 * Traveling
