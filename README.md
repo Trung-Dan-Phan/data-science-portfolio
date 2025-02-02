@@ -29,15 +29,19 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ![Multimodal Transformer](docs/multimodal_transformer.png)
 
-### Schneider Electric - Plastic Cost Prediction (December 2024)
 
-![Schneider Electric](docs/schneider_electric.png)
+### Eleven Strategy Data Challenge - AI-Driven Client Selection for Luxury Events (January 2025) 
+![eleven](docs/eleven.png)
 
-* Designed data preprocessing pipelines, merging over 10 datasets (e.g., macroeconomic indicators, raw material prices) and ensuring consistency through timestamp alignment, format unification, and missing value imputation.
-* Implemented and evaluated forecasting models to forecast Polycarbonate and Green Polycarbonate prices for 3, 6, and 9 months, with NBEATS achieving the best-performance with a Mean Absolute Error (MAE) of 0.1155.
-* Delivered strategic business insights by correlating cost forecasts with Schneider Electric’s pricing and competitor data, enabling informed procurement and pricing decisions.
+* Designed and developed an AI-driven client selection model within one week, leveraging 3 datasets to optimize event marketing strategies.
+* Segmented 30K clients into 7 clusters using 10 key features, improving event targeting and engagement.
+* Leveraged a 50K+ transaction dataset to measure the causal impact of event invitations on revenue, applying Causal ML techniques.
+* Achieved 92% accuracy in predicting event attendance probability with a Logistic Regression model, enhancing invitation precision.
+* Developed an interactive Streamlit app that enables marketing teams to generate a list of high-potential clients to invitate, improving event attendance efficiency.
+* Awarded best commercial proposal among 7 teams by senior data consultants for its innovative and data-driven approach.
 
-![PolyCarbonate Price Forecasting](docs/schneider_electric_pc_price_forecasting.png)
+![Client List Generator](docs/streamlit_client_list_generator.png)
+
 
 ### Unibail-Rodamco-Westfield - Retail Performance & Mix Optimization (January 2025) 
 
@@ -49,6 +53,17 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 * Conducted market-specific analysis to identify top-performing store categories by country, providing data-driven insights to adapt strategies across diverse markets.
 
 ![Store Performance](docs/store_category_performance.png)
+
+### Schneider Electric - Plastic Cost Prediction (December 2024)
+
+![Schneider Electric](docs/schneider_electric.png)
+
+* Designed data preprocessing pipelines, merging over 10 datasets (e.g., macroeconomic indicators, raw material prices) and ensuring consistency through timestamp alignment, format unification, and missing value imputation.
+* Implemented and evaluated forecasting models to forecast Polycarbonate and Green Polycarbonate prices for 3, 6, and 9 months, with NBEATS achieving the best-performance with a Mean Absolute Error (MAE) of 0.1155.
+* Delivered strategic business insights by correlating cost forecasts with Schneider Electric’s pricing and competitor data, enabling informed procurement and pricing decisions.
+
+![PolyCarbonate Price Forecasting](docs/schneider_electric_pc_price_forecasting.png)
+
 
 ### Capgemini Invent - Customer Feedback Analysis for TotalEnergies (January-March 2024) 
 
