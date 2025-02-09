@@ -30,6 +30,19 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 ![Multimodal Transformer](docs/multimodal_transformer.png)
 
 
+### L’Oreal Data Challenge – Marketing Mix Modeling	(February 2025)
+
+![l'oreal](docs/l'oreal.png)
+
+* Conducted marketing mix modeling (MMM) using Google Meridian, analyzing $10M+ in A&P investments and isolating their impact on offline & online sales, achieving an R² of 0.81.
+* Engineered ad stock effects, diminishing returns, and lagged variables to improve predictive accuracy, selecting the top 20 significant drivers from 60+ variables via forward selection.
+* Analyzed ROI across 20 marketing channels by comparing incremental revenue vs. annual investment, identifying trends and assessing short- vs. long-term effects
+* Identified saturation points and optimized response curves, providing data-driven budget allocation recommendations.
+* Collaborated with a team of 6 to analyze findings and present actionable insights to L’Oréal data scientists & marketing officers, supporting strategic marketing evaluations.
+
+![response curves](docs/response_curves.png)
+
+
 ### Eleven Strategy Data Challenge - AI-Driven Client Selection for Luxury Events (January 2025) 
 ![eleven](docs/eleven.png)
 
@@ -78,10 +91,9 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 **Skills**
 ------------------------------
 - **Languages & Databases:** Python, SQL, Git, GCP (BigQuery), AWS (S3)
-- **Analytical Modeling:** Causal Inference, Time Series Analysis
 - **Data Visualization:** Matplotlib, Seaborn, Plotly, Tableau
 - **Machine Learning:** Numpy, Pandas, Scipy, Statsmodels, Scikit-learn, PySpark, TensorFlow, PyTorch, Keras, spaCy
-- **AI Models:** Supervised Learning (Regression, KNN, Logistic Regression, Trees, Boosting), Unsupervised Learning (PCA, Clustering), NLP, Deep Learning (Neural Networks, Transformer), Reinforcement Learning (Sarsa, Q-Learning, Actor-Critic)
+- **AI Models:** Supervised Learning, Unsupervised Learning, Natural Language Processing, Deep Learning, Time Series, Causal Inference, Marketing Mix Modeling, Reinforcement Learning
 - **MLOPS:** Mlflow, Docker, FastAPI, Prophet
 
 **Interests**
