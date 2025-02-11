@@ -18,9 +18,9 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 **Professional Experience**
 -------------------------
 
-### NielsenIQ Digital Purchases (formerly Foxintelligence) (April-August 2024)
-
 ![foxintelligence](docs/foxintelligence_by_nielseniq.png)
+
+### NielsenIQ Digital Purchases (formerly Foxintelligence) (April-August 2024)
 
 * Queried and joined 20+GB datasets in BigQuery, matching product names with prices (one-to-many relationships) and converting 50M+ prices to USD to standardize data.
 * Optimized product distribution across categories by implementing data-driven sampling techniques, identified and removed pricing anomalies, and efficiently managed processed datasets in AWS S3.
@@ -29,10 +29,11 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ![Multimodal Transformer](docs/multimodal_transformer.png)
 
-
-### L’Oreal Data Challenge – Marketing Mix Modeling	(February 2025)
+---
 
 ![l'oreal](docs/l'oreal.png)
+
+### L’Oreal Data Challenge – Marketing Mix Modeling	(February 2025)
 
 * Conducted marketing mix modeling using Google Meridian, analyzing $10M+ in A&P investments and isolating their impact on offline & online sales between 2022 and 2023, achieving an R² of 0.81.
 * Engineered ad stock effects, diminishing returns, and lagged variables to improve predictive accuracy, selecting the top 20 significant drivers from 60+ variables via forward selection.
@@ -41,10 +42,11 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ![response curves](docs/response_curves.png)
 
-
-### Eleven Strategy Data Challenge - AI-Driven Client Selection for Luxury Events (January 2025) 
+---
 
 ![eleven](docs/eleven.png)
+
+### Eleven Strategy Data Challenge - AI-Driven Client Selection for Luxury Events (January 2025) 
 
 * Designed a commercial proposal of an AI-driven client selection model within one week, leveraging 3 datasets to optimize luxury event marketing strategies.
 * Leveraged a 50K+ transaction dataset to measure the causal impact of event invitations on revenue by comparing pre-event and post-event client spendings.
@@ -53,10 +55,11 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ![Client List Generator](docs/streamlit_client_list_generator.png)
 
-
-### Unibail-Rodamco-Westfield - Retail Performance & Mix Optimization (January 2025) 
+---
 
 ![URW](docs/urw.png)
+
+### Unibail-Rodamco-Westfield - Retail Performance & Mix Optimization (January 2025) 
 
 * Integrated 6 diverse datasets (sales, costs, traffic) at store and mall levels, creating a unified dataset with over 15,000 rows to support comprehensive analysis.
 * Developed 6 KPIs focused on revenue, cost efficiency, and traffic flow, enabling precise evaluation of store and mall performance to uncover inefficiencies.
@@ -65,10 +68,11 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ![Store Performance](docs/store_category_performance.png)
 
-
-### Schneider Electric - Plastic Cost Prediction (December 2024)
+---
 
 ![Schneider Electric](docs/schneider_electric.png)
+
+### Schneider Electric - Plastic Cost Prediction (December 2024)
 
 * Designed data preprocessing pipelines, merging over 10 datasets and ensuring consistency through timestamp alignment, format unification, and missing value imputation, obtaining quarterly data from 2017 to 2024.
 * Implemented and evaluated forecasting models to forecast Polycarbonate and Green Polycarbonate prices for the first 3 quarters of 2025, with Deep Learning model achieving the best performance with a Mean Absolute Error of 0.115.
@@ -77,9 +81,11 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ![PolyCarbonate Price Forecasting](docs/schneider_electric_pc_price_forecasting.png)
 
-### Capgemini Invent - Air Quality in Paris Time Series Forecasting	(October 2024)
+---
 
 ![Capgemini Invent](docs/capgemini_invent.png)
+
+### Capgemini Invent - Air Quality in Paris Time Series Forecasting	(October 2024)
 
 * Performed data preprocessing for time series forecasting, including the integration of 3 external sources (weather, holidays, covid-19 periods) to improve model relevance, as well as the handling of missing and outlier data via Qolmat's analysis tools, guaranteeing data integrity and continuity.
 * Trained and evaluated multiple forecasting models using Darts to predict hourly concentrations of five key pollutants over a three-week period using historical data from 2020 to 2024.
@@ -89,8 +95,6 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 
 ### Capgemini Invent - Customer Feedback Analysis for TotalEnergies (January-March 2024) 
-
-![Capgemini Invent](docs/capgemini_invent.png)
 
 * Developed an automated solution to scrape over 200 pages of customer reviews from Trustpilot using Selenium to analyze the Voice of Customer.
 * Leveraged BERTopic to analyze over 10,000 customer interactions, uncovering key topics and pain points across entire customer journey for TotalEnergies and its main competitors.
