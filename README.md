@@ -18,14 +18,14 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 **Professional Experience**
 -------------------------
 
-### Foxintelligence by NielsenIQ (April-August 2024)
+### NielsenIQ Digital Purchases (formerly Foxintelligence) (April-August 2024)
 
 ![foxintelligence](docs/foxintelligence_by_nielseniq.png)
 
-* Queried and joined large datasets in BigQuery, matching product names with prices and converting 50M+ prices to USD to standardize data.
-* Applied Levenshtein distance for sampling and balancing product distribution by category, utilizing Z-Score to filter out price anomalies.
-* Implemented a state-of-the-art Multimodal Transformer model, processing over 1 million data points and integrating textual, numerical, and categorical features to reduce misclassification rates by 2%.
-* Developed and deployed a Databricks pipeline running six parallel combining strategies and integrated with MLflow for model tracking
+* Queried and joined 20+GB datasets in BigQuery, matching product names with prices (one-to-many relationships) and converting 50M+ prices to USD to standardize data.
+* Optimized product distribution across categories by implementing data-driven sampling techniques, identified and removed pricing anomalies, and efficiently managed processed datasets in AWS S3.
+* Implemented a state-of-the-art Multimodal Transformer model to integrate textual, numerical, and categorical features for enhanced product classification accuracy.
+* Developed and deployed a Databricks pipeline integrated with MLflow for model tracking, running six parallel combining strategies, and boosting classification metrics by 2% over the existing model without price features.
 
 ![Multimodal Transformer](docs/multimodal_transformer.png)
 
@@ -34,24 +34,22 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ![l'oreal](docs/l'oreal.png)
 
-* Conducted marketing mix modeling (MMM) using Google Meridian, analyzing $10M+ in A&P investments and isolating their impact on offline & online sales, achieving an R² of 0.81.
+* Conducted marketing mix modeling using Google Meridian, analyzing $10M+ in A&P investments and isolating their impact on offline & online sales between 2022 and 2023, achieving an R² of 0.81.
 * Engineered ad stock effects, diminishing returns, and lagged variables to improve predictive accuracy, selecting the top 20 significant drivers from 60+ variables via forward selection.
-* Analyzed ROI across 20 marketing channels by comparing incremental revenue vs. annual investment, identifying trends and assessing short- vs. long-term effects
-* Identified saturation points and optimized response curves, providing data-driven budget allocation recommendations.
-* Collaborated with a team of 6 to analyze findings and present actionable insights to L’Oréal data scientists & marketing officers, supporting strategic marketing evaluations.
+* Analyzed ROI across 20 marketing channels by comparing incremental revenue vs annual investment, identifying trends and assessing short-term and long-term effects.
+* Collaborated with a team of 6 to analyze saturation points and optimize response curves, providing data-driven budget allocation recommendations to L’Oréal data scientists & marketing officers, supporting strategic marketing evaluations.
 
 ![response curves](docs/response_curves.png)
 
 
 ### Eleven Strategy Data Challenge - AI-Driven Client Selection for Luxury Events (January 2025) 
+
 ![eleven](docs/eleven.png)
 
-* Designed and developed an AI-driven client selection model within one week, leveraging 3 datasets to optimize event marketing strategies.
-* Segmented 30K clients into 7 clusters using 10 key features, improving event targeting and engagement.
-* Leveraged a 50K+ transaction dataset to measure the causal impact of event invitations on revenue, applying Causal ML techniques.
+* Designed a commercial proposal of an AI-driven client selection model within one week, leveraging 3 datasets to optimize luxury event marketing strategies.
+* Leveraged a 50K+ transaction dataset to measure the causal impact of event invitations on revenue by comparing pre-event and post-event client spendings.
 * Achieved 92% accuracy in predicting event attendance probability with a Logistic Regression model, enhancing invitation precision.
-* Developed an interactive Streamlit app that enables marketing teams to generate a list of high-potential clients to invitate, improving event attendance efficiency.
-* Awarded best commercial proposal among 7 teams by senior data consultants for its innovative and data-driven approach.
+* Developed an interactive Streamlit app that enables marketing teams to generate a list of high-potential clients to invite, improving event attendance efficiency.
 
 ![Client List Generator](docs/streamlit_client_list_generator.png)
 
@@ -61,30 +59,42 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 ![URW](docs/urw.png)
 
 * Integrated 6 diverse datasets (sales, costs, traffic) at store and mall levels, creating a unified dataset with over 15,000 rows to support comprehensive analysis.
-* Developed 8 KPIs focused on revenue, cost efficiency, and traffic flow, enabling precise evaluation of store and mall performance to uncover inefficiencies.
-* Leveraged hierarchical clustering to categorize malls into distinct segments (luxury, fashion, convenient, family-friendly) and tailored strategic recommendations accordingly.
-* Conducted market-specific analysis to identify top-performing store categories by country, providing data-driven insights to adapt strategies across diverse markets.
+* Developed 6 KPIs focused on revenue, cost efficiency, and traffic flow, enabling precise evaluation of store and mall performance to uncover inefficiencies.
+* Leveraged hierarchical clustering to categorize malls into 4 distinct segments (luxury, fashion, convenient, family-friendly) and tailored strategic recommendations accordingly.
+* Collaborated with a team of 6 to present insights to URW managers, earning recognition as one of the top 2 teams out of 10 for delivering highly actionable recommendations.
 
 ![Store Performance](docs/store_category_performance.png)
+
 
 ### Schneider Electric - Plastic Cost Prediction (December 2024)
 
 ![Schneider Electric](docs/schneider_electric.png)
 
-* Designed data preprocessing pipelines, merging over 10 datasets (e.g., macroeconomic indicators, raw material prices) and ensuring consistency through timestamp alignment, format unification, and missing value imputation.
-* Implemented and evaluated forecasting models to forecast Polycarbonate and Green Polycarbonate prices for 3, 6, and 9 months, with NBEATS achieving the best-performance with a Mean Absolute Error (MAE) of 0.1155.
+* Designed data preprocessing pipelines, merging over 10 datasets and ensuring consistency through timestamp alignment, format unification, and missing value imputation, obtaining quarterly data from 2017 to 2024.
+* Implemented and evaluated forecasting models to forecast Polycarbonate and Green Polycarbonate prices for the first 3 quarters of 2025, with Deep Learning model achieving the best performance with a Mean Absolute Error of 0.115.
 * Delivered strategic business insights by correlating cost forecasts with Schneider Electric’s pricing and competitor data, enabling informed procurement and pricing decisions.
+* Collaborated with a cross-functional team of five members to create a state-of-the-art solution, recognized as the best-performing team among 6 competing groups, for developing data-driven solutions that aligned with Schneider Electric’s sustainability and profitability objectives.
 
 ![PolyCarbonate Price Forecasting](docs/schneider_electric_pc_price_forecasting.png)
+
+### Capgemini Invent - Air Quality in Paris Time Series Forecasting	(October 2024)
+
+![Capgemini Invent](docs/capgemini_invent.png)
+
+* Performed data preprocessing for time series forecasting, including the integration of 3 external sources (weather, holidays, covid-19 periods) to improve model relevance, as well as the handling of missing and outlier data via Qolmat's analysis tools, guaranteeing data integrity and continuity.
+* Trained and evaluated multiple forecasting models using Darts to predict hourly concentrations of five key pollutants over a three-week period using historical data from 2020 to 2024.
+* Implemented a hybrid ensemble model combining LightGBM and CatBoost, achieving our best Mean Absolute Error of 5.74, reaching top 3 ranking on Kaggle’s leaderboard.
+
+![Air Quality Time Series](docs/air_quality_time_series.png)
 
 
 ### Capgemini Invent - Customer Feedback Analysis for TotalEnergies (January-March 2024) 
 
 ![Capgemini Invent](docs/capgemini_invent.png)
 
-* Developed an automated solution to scrape customer reviews from Trustpilot using Selenium to analyze the Voice of Customer
-* Leveraged BERTopic to analyze over 5000 customer interactions, uncovering key topics and pain points across entire customer journey for TotalEnergies and its main competitors
-* Collaborated with a team of six students to present findings to a panel of data science consultants, communicating data-driven insights on customer sentiment
+* Developed an automated solution to scrape over 200 pages of customer reviews from Trustpilot using Selenium to analyze the Voice of Customer.
+* Leveraged BERTopic to analyze over 10,000 customer interactions, uncovering key topics and pain points across entire customer journey for TotalEnergies and its main competitors.
+* Collaborated with a team of six students to present findings to a panel of data science consultants, communicating data-driven insights on customer sentiment.
 
 ![Bertopic](docs/bertopic_total_energies_reviews.png)
 
