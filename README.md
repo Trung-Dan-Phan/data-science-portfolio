@@ -9,11 +9,14 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 ------------
 
 * **Master of Science in Data Science & AI for Business**, École Polytechnique / HEC Paris (2023-2025)
-	+ GPA: 3.87/4.0
-	+ Ranked 3rd globally in QS Master in Business Analytics rankings (2024)
+	+ GPA: 3.9/4.0
+	+ Courses (X): Python for Data Science, Statistics, Machine Learning, Deep Learning, Database Management, NLP
+	+ Courses (HEC): Tableau, Fairness & Interpretability, MLOps, Time Series, Causal Inference, Reinforcement Learning
+
 * **Bachelor of Commerce**, McGill University (2019-2022)
 	+ Major in Mathematics, Concentration in Business Analytics
 	+ McGill One-Year Entrance Scholarship (2019)
+	+ Courses: Algebra, Calculus, Optimization, Operations Management, Operations Research, Data Analytics
 
 **Professional Experience**
 -------------------------
@@ -22,10 +25,7 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ### **NielsenIQ Digital Purchases (formerly Foxintelligence)** (April-August 2024)
 
-* Queried and joined 20+GB datasets in BigQuery, matching product names with prices (one-to-many relationships) and converting 50M+ prices to USD to standardize data.
-* Optimized product distribution across categories by implementing data-driven sampling techniques, identified and removed pricing anomalies, and efficiently managed processed datasets in AWS S3.
-* Implemented a state-of-the-art Multimodal Transformer model to integrate textual, numerical, and categorical features for enhanced product classification accuracy.
-* Developed and deployed a Databricks pipeline integrated with MLflow for model tracking, running six parallel combining strategies, and boosting classification metrics by 2% over the existing model without price features.
+I joined the data science team to improve the performance of a product categorization model which relied solely on product names. My contribution was implementing a flexible Multimodal Transformer model to integrate textual, numerical, and categorical features, improving product classification accuracy by 2%, just by adding product prices.
 
 ![Multimodal Transformer](docs/multimodal_transformer.png)
 
@@ -35,10 +35,7 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ### **BCG-X Data Challenge - Customer Churn Prediction & AI Strategy Development** (February 2025) 
 
-* Partnered with 3 students from master’s in strategic management to identify and prioritize 10 AI-driven data use cases, utilizing an Impact-Feasibility Matrix to select churn prediction as the most valuable and implementable.
-* Developed a customer churn prediction model using Logistic Regression, achieving 92.2% accuracy with 96% precision for identifying at-risk customers.
-* Engineered 5 key customer insights by analyzing purchase frequency, total sales, engagement channels, and customer lifetime, leading to targeted retention strategies.
-* Presented findings to the BCG-X consultants, demonstrating a potential 50% increase in customer retention and a projected €150M revenue uplift through improved sales and marketing efficiency.
+I collaborated with strategic management students to identify and prioritize 10 AI-driven data use cases for a B2B construction products distributor, selecting churn prediction as the most valuable using an Impact-Feasibility Matrix. A Logistic Regression model was developed, achieving 96% precision and 77% recall in identifying at-risk customers. 
 
 ![churn prediction](docs/churn_prediction.png)
 
@@ -49,10 +46,7 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 
 ### **L’Oreal Data Challenge – Marketing Mix Modeling** (February 2025)
 
-* Conducted marketing mix modeling using Google Meridian, analyzing $10M+ in A&P investments and isolating their impact on offline & online sales between 2022 and 2023, achieving an R² of 0.81.
-* Engineered ad stock effects, diminishing returns, and lagged variables to improve predictive accuracy, selecting the top 20 significant drivers from 60+ variables via forward selection.
-* Analyzed ROI across 20 marketing channels by comparing incremental revenue vs annual investment, identifying trends and assessing short-term and long-term effects.
-* Collaborated with a team of 6 to analyze saturation points and optimize response curves, providing data-driven budget allocation recommendations to L’Oréal data scientists & marketing officers, supporting strategic marketing evaluations.
+This project used Google Meridian for marketing mix modeling, analyzing $10M+ in A&P investments by L'Oreal to measure their impact on sales from 2022 to 2024(R² = 0.81). We assessed ROI across 20 marketing channels, uncovering trends and optimizing budget allocation using response curves.
 
 ![response curves](docs/response_curves.png)
 
@@ -114,6 +108,19 @@ I gratuated from [McGill University](https://www.mcgill.ca/desautels/about/about
 * Collaborated with a team of six students to present findings to a panel of data science consultants, communicating data-driven insights on customer sentiment.
 
 ![Bertopic](docs/bertopic_total_energies_reviews.png)
+
+**Projects**
+-------------------------
+
+### **Manga Recommender System** (March 2025)
+[GitHub Repo](https://github.com/Trung-Dan-Phan/manga_recommender_system)
+
+* Designed and deployed a collaborative filtering-based recommender system using data from 10,000+ manga titles and 10,000+ user profiles collected via the Anilist API and stored on Google BigQuery
+* Evaluated 10 models using scikit-surprise; best model (SVD) achieved MAE of 0.637 and Precision@10 of 0.981 improving recommendation precision by 3.7% over baseline popularity-based methods.
+* Built a Prefect-driven ML pipeline for automated daily data fetching and weekly model training, achieving an end-to-end runtime of <15 minutes.
+* Integrated CI/CD with GitHub Actions and pre-commit hooks to automate testing and deployment, maintaining robust code quality and applying MLOps best practices.
+
+
 
 **Skills**
 ------------------------------
